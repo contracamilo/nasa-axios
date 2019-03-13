@@ -4,19 +4,49 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 60px;
   pointer-events: none;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.infobox{
+  display: flex;
+  padding: 30px 70px;
+}
+.infobox .image{
+  width: 50%;
+}
+
+.infobox .inner{
+    width: 50%;
+    text-align: left;
+    padding: 0 50px;
+}
+
+.infobox .inner p{
+    margin-bottom: 30px;
+}
+.date{
+  color: #666;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn{
+  background-color: black;
+  color: antiquewhite;
+  padding: 9px 15px;
+  text-decoration: none;
+  margin-top: 15px;
 }
 
 .App-link {
